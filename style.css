@@ -1,20 +1,72 @@
-    .price-btn{
-        background: #000;
-        color: #ffffff;
-        padding: 5px 10px;
+    .container{
+        margin-bottom: 40px;
+    }
+    .btn:hover{
+        background-color: rgb(255, 173, 41);
+    }
+    .carousel-indicators li{
+        display: inline-block;
+        background-color:gray;
+        height: 10px;
+        width: 20px;
+        margin: 5px;
+        text-indent: 0;
         border: none;
+        border-radius: 10px;
+
+    }
+    .carousel-indicators .active{
+        height: 10px;
+        width: 35px;
+        margin: 5px;
+        background-image: linear-gradient(90deg, rgb(255, 174, 0), rgb(255, 251, 0));
+    }
+    .card{
+        border: none;
+        box-shadow: 2px 3px 10px lightgrey;
+    }
+    .card img{
+        width: 200px;
+    }
+    .card-footer{
+        border-top: none;
+        background-color: white;
+    }
+    .card-img-top{
+        padding-top: 40px;
+    }
+    .draw{
+        width: 120px;
+        height: 7px;
         border-radius: 5px;
-        display:block;
-        margin: auto;
-        margin-top: 5px;
+        background-image: linear-gradient(90deg, rgb(255, 157, 0), rgb(250, 219, 42));
     }
-    .ctg{
-        margin-top: 50px;
+    .order-img{
+        width: 1000px;
     }
-    .back{
-        background-image: url(images/header-bg.png);
-        
+    .bg-img-sh{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 5px 10px gray;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
-    .back img{
-        width: 100%;
+    .bg-img-sh h2{ 
+        text-align: center;
     }
+    .cat-bag{
+        padding: 20px 0px 0px 40px;
+    }
+    .cat-per{
+        padding: 20px 0px 0px 30px;
+    }
+    .cat-sh{
+        padding: 20px 0px 0px 40px;
+    }
+    .subs{
+        height: 150px;
+        border-radius: 10px;
+        background-image: linear-gradient(90deg, rgb(80, 232, 252), rgb(125, 240, 49));
+    }
+    /* finished */
